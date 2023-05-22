@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffff"
+    android:orientation="vertical"
+   >
+
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Fima"
+        android:textColor="@color/dark"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:paddingHorizontal="10dp"/>
+
+    <com.kofigyan.stateprogressbar.StateProgressBar
+        android:id="@+id/your_state_progress_bar_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:spb_currentStateNumber="three"
+        app:spb_maxStateNumber="four"
+        app:spb_stateBackgroundColor="#BDBDBD"
+        app:spb_stateForegroundColor="#009688"
+        app:spb_stateNumberBackgroundColor="#808080"
+        app:spb_stateNumberForegroundColor="#eeeeee"
+        app:spb_currentStateDescriptionColor="#009688"
+        app:spb_stateDescriptionColor="#808080"
+        app:spb_animateToCurrentProgressState="true"
+        app:spb_checkStateCompleted="true"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="10dp"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="10dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/address_edittext"
+        />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="534/1"
+                android:textSize="16sp"
+                android:textColor="@color/dark"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Henihaththa"
+                android:textSize="16sp"
+                android:textColor="@color/dark"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biyagama"
+                android:textSize="16sp"
+                android:textColor="@color/dark"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#c0c0c0"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request date:"
+                android:textSize="18sp"
+                android:textColor="@color/dark"
+                android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11:14 am, 05-Jun-2019"
+                    android:textSize="16sp"
+                    android:textColor="@color/dark"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problem:"
+            android:textSize="18sp"
+            android:textColor="@color/dark"
+            android:layout_marginTop="10dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fix a leak of water in bathroom"
+            android:textSize="16sp"
+            android:textColor="@color/dark"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photos:"
+        android:textSize="18sp"
+        android:textColor="@color/dark"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/address_edittext"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

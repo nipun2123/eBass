@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingVertical="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp">
+
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/test3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Dello"
+            android:textSize="25sp"
+            android:textColor="@color/dark"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"/>
+
+                <ImageView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    app:srcCompat="@drawable/ic_star_default_32dp"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/ratingBarStyleIndicator"
+                android:numStars="5"
+                android:stepSize="0.1"
+                android:layout_marginLeft="20dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:paddingHorizontal="10dp"/>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="10dp"
+                android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textSize="18sp"
+                android:textColor="@color/dark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Painting"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"/>
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark"
+                    />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Biayagama, Gampaha"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/address_edittext"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Details"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <GridView
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:numColumns="3"
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="50dp"
+                    android:columnWidth="10dp"
+                    android:listSelector="#0f0"
+                    android:layout_marginTop="20dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reviews"
+                    android:textSize="18sp"
+                    android:textColor="@color/dark"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <ListView
+                    android:id="@+id/problemCompanyList"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:dividerHeight="1dp"
+                    android:layout_marginTop="5dp"
+                    android:longClickable="true"
+                    android:listSelector="@color/dot_light_screen2"
+                    />
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

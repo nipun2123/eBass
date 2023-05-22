@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.Problem_ConfirmRequest"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="51dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We're going to send your request please check the request before you confirm"
+        android:textSize="14sp"
+        android:textColor="@color/dark"
+        android:layout_marginHorizontal="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details"
+            android:textSize="18sp"
+            android:textColor="@color/dark"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What problem(s) are you having?"
+            android:textSize="14dp"
+            android:textColor="@color/dark"
+            android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="dvs dsvs sdvsvsd dsvds sdv sd"
+                android:textSize="14dp"
+                android:paddingHorizontal="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+           >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Photos"
+                android:textSize="18sp"
+                android:textColor="@color/dark"
+                android:padding="10dp"
+                android:layout_marginBottom="150dp"/>
+
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        <CheckedTextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="I have read and agree to the Terms &amp; Conditions"
+            android:drawableLeft="?android:attr/listChoiceIndicatorMultiple"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="20dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

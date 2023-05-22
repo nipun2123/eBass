@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.Problem_WhichWork"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/electricalCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="3dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_marginBottom="51dp"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What kind of work do you need?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark"
+            android:padding="10dp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="520dp"
+            android:fillViewport="true"
+
+            >
+
+            <ListView
+                android:id="@+id/workAnswersList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:choiceMode="singleChoice"
+                android:divider="@null"
+                android:dividerHeight="0dp"
+                />
+
+
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <LinearLayout
+        android:id="@+id/problemCompanyItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:weightSum="4">
+
+<ImageView
+    android:id="@+id/problemCompanyPic"
+    android:layout_height="48dp"
+    android:layout_width="48dp"
+    android:src="@drawable/bgapps"
+    android:layout_gravity="center"
+    android:layout_weight="0.8"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2.8">
+
+            <TextView
+                android:id="@+id/problemCompanyName"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Nipun"
+                android:textSize="16sp"
+                android:textColor="@color/dark"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/problemCompanyCate"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Software engineer"
+                android:textSize="16sp"
+                android:textColor="@color/dark"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/problemCompanyLoca"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Gampaha"
+                android:textSize="16sp"
+                android:textColor="@color/dark"
+                android:layout_marginLeft="10dp"/>
+
+            <RatingBar
+                android:id="@+id/problemCompanyRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?attr/ratingBarStyleSmall"
+                android:numStars="5"
+                android:stepSize="0.1"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight=".4">
+
+
+            <CheckedTextView
+                android:id="@+id/problemCompanyRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkMark="?android:attr/listChoiceIndicatorSingle"
+                android:theme="@style/checkBoxComponent"
+                android:gravity="left"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

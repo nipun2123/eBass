@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Ebass</string>
+    <string name="title_activity_main_bottom_navigation">MainBottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_services">Services</string>
+    <string name="title_jobs">Jobs</string>
+    <string name="title_messages">Messages</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="sevice_electrical">Electrical</string>
+    <string name="sevice_plumping">Plumping</string>
+    <string name="sevice_security">Security</string>
+    <string name="sevice_ac_repair">A/C Repair</string>
+    <string name="sevice_painting">Painting</string>
+    <string name="sevice_pest_control">Pest Control</string>
+    <string name="sevice_gardening">Gardening</string>
+    <string name="sevice_cleaning">Cleaning</string>
+
+    <string name="search_company_hint">Search Company</string>
+    <string name="select_location">Select Location</string>
+
+    <string name="location">Location</string>
+    <string name="category">Category</string>
+    <string name="title_activity_jobs_fragment">JobsFragment</string>
+    <string name="tab_text_1">Ongoing</string>
+    <string name="tab_text_2">History</string>
+
+</resources>

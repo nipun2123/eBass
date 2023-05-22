@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="6dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bgapps"
+            android:scaleType="fitXY"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="6dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:weightSum="3">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/electricalCard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardElevation="6dp"
+                    app:cardCornerRadius="12dp"
+                    android:layout_margin="6dp">
+
+                    <LinearLayout
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:padding="16dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:src="@mipmap/ic_launcher"
+                            android:layout_height="80dp"
+                            android:layout_width="80dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/sevice_electrical"
+                            android:textSize="14sp"/>
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_height="80dp"
+                        android:layout_width="80dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/sevice_security"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="6dp">
+
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:src="@mipmap/ic_launcher"
+                        android:layout_height="80dp"
+                        android:layout_width="80dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/sevice_ac_repair"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:layout_weight="1"
+               android:weightSum="3">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_weight="1">
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       app:cardElevation="6dp"
+                       app:cardCornerRadius="12dp"
+                       android:layout_margin="6dp">
+
+                       <LinearLayout
+                           android:layout_height="match_parent"
+                           android:layout_width="match_parent"
+                           android:padding="16dp"
+                           android:gravity="center"
+                           android:orientation="vertical">
+
+                           <ImageView
+                               android:src="@mipmap/ic_launcher"
+                               android:layout_height="80dp"
+                               android:layout_width="80dp"/>
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:text="@string/sevice_plumping"
+                               android:textSize="14sp"/>
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_weight="1">
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       app:cardElevation="6dp"
+                       app:cardCornerRadius="12dp"
+                       android:layout_margin="6dp">
+
+                       <LinearLayout
+                           android:layout_height="match_parent"
+                           android:layout_width="match_parent"
+                           android:padding="16dp"
+                           android:gravity="center"
+                           android:orientation="vertical">
+
+                           <ImageView
+                               android:src="@mipmap/ic_launcher"
+                               android:layout_height="80dp"
+                               android:layout_width="80dp"/>
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:text="@string/sevice_painting"
+                               android:textSize="14sp"/>
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_weight="1">
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       app:cardElevation="6dp"
+                       app:cardCornerRadius="12dp"
+                       android:layout_margin="6dp">
+
+                       <LinearLayout
+                           android:layout_height="match_parent"
+                           android:layout_width="match_parent"
+                           android:padding="16dp"
+                           android:gravity="center"
+                           android:orientation="vertical">
+
+                           <ImageView
+                               android:src="@mipmap/ic_launcher"
+                               android:layout_height="80dp"
+                               android:layout_width="80dp"/>
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:text="@string/sevice_pest_control"
+                               android:textSize="14sp"/>
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:layout_weight="1"
+               android:weightSum="3">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_weight="1">
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       app:cardElevation="6dp"
+                       app:cardCornerRadius="12dp"
+                       android:layout_margin="6dp">
+
+                       <LinearLayout
+                           android:layout_height="match_parent"
+                           android:layout_width="match_parent"
+                           android:padding="16dp"
+                           android:gravity="center"
+                           android:orientation="vertical">
+
+                           <ImageView
+                               android:src="@mipmap/ic_launcher"
+                               android:layout_height="80dp"
+                               android:layout_width="80dp"/>
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:text="@string/sevice_cleaning"
+                               android:textSize="14sp"/>
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_weight="1">
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       app:cardElevation="6dp"
+                       app:cardCornerRadius="12dp"
+                       android:layout_margin="6dp">
+
+                       <LinearLayout
+                           android:layout_height="match_parent"
+                           android:layout_width="match_parent"
+                           android:padding="16dp"
+                           android:gravity="center"
+                           android:orientation="vertical">
+
+                           <ImageView
+                               android:src="@mipmap/ic_launcher"
+                               android:layout_height="80dp"
+                               android:layout_width="80dp"/>
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:text="@string/sevice_gardening"
+                               android:textSize="14sp"/>
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="horizontal"
+                   android:layout_weight="1">
+
+                   <androidx.cardview.widget.CardView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       app:cardElevation="6dp"
+                       app:cardCornerRadius="12dp"
+                       android:layout_margin="6dp">
+
+                       <LinearLayout
+                           android:layout_height="match_parent"
+                           android:layout_width="match_parent"
+                           android:padding="16dp"
+                           android:gravity="center"
+                           android:orientation="vertical">
+
+                           <ImageView
+                               android:src="@mipmap/ic_launcher"
+                               android:layout_height="80dp"
+                               android:layout_width="80dp"/>
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="match_parent"
+                               android:text="Painting"
+                               android:textSize="14sp"/>
+                       </LinearLayout>
+
+                   </androidx.cardview.widget.CardView>
+               </LinearLayout>
+           </LinearLayout>
+
+
+
+
+
+       </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
